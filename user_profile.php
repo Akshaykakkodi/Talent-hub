@@ -8,12 +8,7 @@ $data= mysqli_query($con,"select * from public_registration");
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -101,127 +96,7 @@ include 'admin_header.php';
          ?>
         </tbody>
       </table>
-      <!-- <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card hover-bg-secondary shadow py-4">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-palette mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-palette"></i>
-            </div>
-            <h4 class="mb-4">Design</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card hover-bg-secondary shadow py-4">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-dashboard mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-dashboard"></i>
-            </div>
-            <h4 class="mb-4">Development</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card hover-bg-secondary shadow py-4">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-announcement mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-announcement"></i>
-            </div>
-            <h4 class="mb-4">Marketing</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card hover-bg-secondary shadow py-4">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-game mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-game"></i>
-            </div>
-            <h4 class="mb-4">Apps</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card hover-bg-secondary shadow py-4">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-crown mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-crown"></i>
-            </div>
-            <h4 class="mb-4">Branding</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4">
-        <div class="card hover-bg-secondary shadow py-4">
-          <div class="card-body text-center">
-            <div class="position-relative">
-              <i class="icon-lg icon-box bg-gradient-primary rounded-circle ti-bar-chart mb-5 d-inline-block text-white"></i>
-              <i class="icon-lg icon-watermark text-white ti-bar-chart"></i>
-            </div>
-            <h4 class="mb-4">Analytics</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo</p>
-          </div>
-        </div>
-      </div> -->
-    </div>
-  </div>
-</section>
-<!-- /service -->
-
-<!-- feature -->
-
-<!-- /feature -->
-
-
-<!-- /call to action -->
-
-<!-- footer -->
-<footer class="bg-secondary position-relative">
-  <img src="images/backgrounds/map.png" class="img-fluid overlay-image" alt="">
-  <div class="section">
-    <div class="container">
-      <div class="row align-items-center">
-        <!-- <div class="col-md-3 col-6">
-          <h4 class="text-white mb-5">About</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-light d-block mb-3">Service</a></li>
-            <li><a href="#" class="text-light d-block mb-3">Conatact</a></li>
-            <li><a href="#" class="text-light d-block mb-3">About us</a></li>
-            <li><a href="#" class="text-light d-block mb-3">Blog</a></li>
-            <li><a href="#" class="text-light d-block mb-3">Support</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-6">
-          <h4 class="text-white mb-5">Company</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-light d-block mb-3">Service</a></li>
-            <li><a href="#" class="text-light d-block mb-3">Conatact</a></li>
-            <li><a href="#" class="text-light d-block mb-3">About us</a></li>
-            <li><a href="#" class="text-light d-block mb-3">Blog</a></li>
-            <li><a href="#" class="text-light d-block mb-3">Support</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <div class="bg-white p-4">
-            <h3>Contact us</h3>
-            <form action="#">
-              <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Full name">
-              <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Email address">
-              <textarea name="message" id="message" class="form-control mb-4 px-0" placeholder="Message"></textarea>
-              <button class="btn btn-primary" type="submit">Send</button>
-            </form>
-          </div>
-        </div> -->
+     
       </div>
     </div>
   </div>
@@ -238,7 +113,7 @@ include 'admin_header.php';
             <li class="list-inline-item"><a class="d-block p-3 text-white" ><i class="ti-twitter-alt"></i></a></li>
             <li class="list-inline-item"><a class="d-block p-3 text-white" ><i class="ti-instagram"></i></a></li>
             <li class="list-inline-item"><a class="d-block p-3 text-white" ><i class="ti-github"></i></a></li>
-          </ul>href="#"
+          </ul>
         </div>
       </div>
     </div>

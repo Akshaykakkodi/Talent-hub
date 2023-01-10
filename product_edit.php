@@ -36,12 +36,8 @@ if(isset($_POST['sub'])){
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
+
 
 <html lang="zxx">
 
@@ -97,10 +93,7 @@ include 'student_header.php';
               <input type="text" id="name" name="price" value="<?php echo $data3['price'] ?>" class="form-control mb-4 px-0" placeholder="Price">
               
               <input type="text" id="name" name="det" value="<?php echo $data3['details'] ?>" class="form-control mb-4 px-0" placeholder="Details">
-              <!-- <input type="file" id="name" name="img" class="form-control mb-4 px-0" placeholder="image"> -->
-            
-             
-              <!-- <textarea name="message" id="message" class="form-control mb-4 px-0" placeholder="Message"></textarea> -->
+              
               <button class="btn btn-primary" name="sub" type="submit">Submit</button>
           
               
@@ -108,20 +101,13 @@ include 'student_header.php';
             </form>
           </div>
         </div>
-        <!-- <h1 class="display-1 text-white font-weight-bold font-primary">Our Blog</h1> -->
       </div>
     </div>
   </div>
 </section>
 <!-- /page-title -->
 
-<!-- blog -->
 
-<!-- /blog -->
-
-<!-- footer -->
-
-<!-- /footer -->
 
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>

@@ -117,9 +117,7 @@ include 'student_header.php';
 </section>
 <!-- /service -->
 
-<!-- feature -->
 
-<!-- /feature -->
 
 <!-- call to action -->
 <section class="section">

@@ -10,12 +10,7 @@ $data= mysqli_query($con,"select * from feedback_tb join public_registration on 
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -103,11 +98,9 @@ include 'admin_header.php';
     </div>
   </div>
 </section>
-<!-- /service -->
 
-<!-- feature -->
 
-<!-- /feature -->
+
 
 
 

@@ -17,12 +17,7 @@ $data= mysqli_query($con,"select * from su_chat join public_registration on su_c
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -104,7 +99,7 @@ include 'student_header.php';
             <td><?php echo $row['reply'] ?></td>
             <td> <button class="btn btn-primary" name="send" type="submit"><a style="color:white" href="us_chat2.php?id=<?php echo $row['chat_id'] ?>">Reply</a></button></td></td>
             <form method="post">
-            <!-- <td><textarea name="rep" id="" cols="25" rows="5" placeholder="reply"></textarea> -->
+           
             
           </form>
             
@@ -123,13 +118,6 @@ include 'student_header.php';
 </section>
 <!-- /service -->
 
-<!-- feature -->
-
-<!-- /feature -->
-
-<!-- call to action -->
-
-<!-- /call to action -->
 
 <!-- footer -->
 <footer class="bg-secondary position-relative">

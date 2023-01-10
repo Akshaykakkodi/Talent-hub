@@ -21,12 +21,7 @@ if(isset($_POST['sub'])){
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -102,7 +97,7 @@ if(isset($_POST['sub'])){
               <input type="text" id="name" name="col" class="form-control mb-4 px-0" placeholder="College">
               <input type="text" id="name" name="usr" class="form-control mb-4 px-0" placeholder="Username">
               <input type="password" id="name" name="pass" class="form-control mb-4 px-0" placeholder="Password">
-              <!-- <textarea name="message" id="message" class="form-control mb-4 px-0" placeholder="Message"></textarea> -->
+             
               <button class="btn btn-primary" name="sub" type="submit">Submit</button>
           
               
@@ -110,20 +105,13 @@ if(isset($_POST['sub'])){
             </form>
           </div>
         </div>
-        <!-- <h1 class="display-1 text-white font-weight-bold font-primary">Our Blog</h1> -->
+      
       </div>
     </div>
   </div>
 </section>
 <!-- /page-title -->
 
-<!-- blog -->
-
-<!-- /blog -->
-
-<!-- footer -->
-
-<!-- /footer -->
 
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>

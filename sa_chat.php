@@ -15,12 +15,7 @@ header('location:sa_chat2.php');
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -87,9 +82,6 @@ include 'student_header.php';
 </section>
 
 
-<!-- call to action -->
-
-<!-- /call to action -->
 
 <!-- footer -->
 <footer class="bg-secondary position-relative">

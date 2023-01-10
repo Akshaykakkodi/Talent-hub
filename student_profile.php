@@ -9,12 +9,7 @@ $data= mysqli_query($con,"select * from student_registration join login_tb on st
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -110,13 +105,7 @@ include 'student_header.php';
 </section>
 <!-- /service -->
 
-<!-- feature -->
 
-<!-- /feature -->
-
-<!-- call to action -->
-
-<!-- /call to action -->
 
 <!-- footer -->
 <footer class="bg-secondary position-relative">

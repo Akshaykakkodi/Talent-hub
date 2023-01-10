@@ -10,12 +10,6 @@ $data= mysqli_query($con,"select * from as_chat where login_id='$data2' ");
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
 
 <html lang="zxx">
 
@@ -104,23 +98,9 @@ include 'user_header.php';
     </div>
   </div>
 </section>
-<!-- <section class="section">
-  <div class="container">
-    <div class="row">
-      <table class="table table-hover">
-        <thead>
-          <tr>
-            <th scope="col">Message from admin </th>
-          
-            
-            
-            
-            
-          </tr>
-        </thead>
-        <tbody>
+
         <?php
-        //   while($row= mysqli_fetch_assoc($data)){
+       
 
           ?>
           <tr>
@@ -145,9 +125,7 @@ include 'user_header.php';
 </section> -->
 <!-- /service -->
 
-<!-- feature -->
 
-<!-- /feature -->
 
 <!-- call to action -->
 <section class="section">
@@ -155,7 +133,7 @@ include 'user_header.php';
   <div class="row">
     <div class="col-lg-8 offset-lg-1">
       <h2 class="text-gradient-primary">Let's Chat With Us!</h2>
-      <!-- <p class="h4 font-weight-bold text-white mb-4">Lorem ipsum dolor sit amet, magna habemus ius ad</p> -->
+    
       <a href="contact.html" class="btn btn-lg btn-primary">Chat</a>
     </div>
   </div>

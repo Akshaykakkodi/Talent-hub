@@ -23,9 +23,7 @@
             <a class="dropdown-item" href="add_category.php">Add category</a>
             <a class="dropdown-item" href="admin_product.php">View products</a>
           </div>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="admin_product.php">Products</a>
-        </li> -->
+       
         <li class="nav-item">
           <a class="nav-link" href="admin_feedback_view.php">View feedback</a>
         </li>

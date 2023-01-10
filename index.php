@@ -41,12 +41,7 @@ else{
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -92,21 +87,7 @@ else{
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
-        <!-- <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li> -->
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Create Account</a>
           <div class="dropdown-menu">
@@ -150,27 +131,20 @@ else{
                 </tr>
               </table>
            
-              <!-- <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Username">
-              <input type="text" id="name" name="name" class="form-control mb-4 px-0" placeholder="Password"> -->
+            
               
               <button class="btn btn-primary" type="submit" name="login">Login in</button>
             </form>
           </div>
         </div>
-        <!-- <h1 class="display-1 text-white font-weight-bold font-primary">Our Blog</h1> -->
+    
       </div>
     </div>
   </div>
 </section>
 <!-- /page-title -->
 
-<!-- blog -->
 
-<!-- /blog -->
-
-<!-- footer -->
-
-<!-- /footer -->
 
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>

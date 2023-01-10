@@ -16,12 +16,6 @@ header('location:su_chat2.php');
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
 
 <html lang="zxx">
 
@@ -94,7 +88,6 @@ include 'user_header.php';
   <div class="row">
     <div class="col-lg-8 offset-lg-1">
       <h2 class="text-gradient-primary">Let's Chat With Us!</h2>
-      <!-- <p class="h4 font-weight-bold text-white mb-4">Lorem ipsum dolor sit amet, magna habemus ius ad</p> -->
       <a href="contact.html" class="btn btn-lg btn-primary">Chat</a>
     </div>
   </div>

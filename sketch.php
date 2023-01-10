@@ -11,12 +11,7 @@ $data= mysqli_query($con,"select * from product_tb join student_registration on 
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -117,9 +112,7 @@ include 'user_header.php';
 </section>
 <!-- /service -->
 
-<!-- feature -->
 
-<!-- /feature -->
 
 <!-- call to action -->
 <section class="section">

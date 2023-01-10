@@ -27,12 +27,7 @@ if(isset($_POST['sub'])){
 
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
+
 
 <html lang="zxx">
 
@@ -117,20 +112,14 @@ if(isset($_POST['sub'])){
             </form>
           </div>
         </div>
-        <!-- <h1 class="display-1 text-white font-weight-bold font-primary">Our Blog</h1> -->
+        
       </div>
     </div>
   </div>
 </section>
 <!-- /page-title -->
 
-<!-- blog -->
 
-<!-- /blog -->
-
-<!-- footer -->
-
-<!-- /footer -->
 
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>
